@@ -5,10 +5,24 @@
 }
 body{
     font-family: sans-serif;
-    color: #666;
 }
 .profile{
+    margin: 0 auto;
     text-align: center;
+    max-width: 350px;
+    background-color: #cfcfcf;
+    padding: 32px;
+    border-radius: 5px;
+}
+.avatar{
+    width: 180px;
+    height: 180px;
+    background-color: #999;
+    border-radius: 50%;
+}
+h1,p{
+    margin: 10px 0px;
+    
 }
 button{
     background-color: #227C9D;
@@ -20,9 +34,4 @@ button{
 button:hover{
     background-color: #103A49;
 }
-.avatar{
-    width: 180px;
-    height: 180px;
-    background-color: #999;
-    border-radius: 50%;
-}
+
