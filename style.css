@@ -5,24 +5,13 @@ body{
     font-family: sans-serif;
     color: #666;
 }
-.title{
-    color: #333;
-}
-a{
-    color: blue;
-}
-a:hover{
-    color: red;
-}
-a:active{
-    color: green;
-    background-color: black;
-}
-p{
-    background-color: gray;
+button{
+    background-color: #227C9D;
     color: white;
-    padding: 10px 20px;
-    border: 10px solid blue;
-    margin: 0 auto;
-    max-width: 1020px;
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #103A49;
 }
