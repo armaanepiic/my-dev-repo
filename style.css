@@ -19,10 +19,8 @@ p{
     box-sizing: border-box;
     background-color: gray;
     color: white;
-    padding: 20px;
-    border: 5px;
-    border-color: blue;
-    border-style: solid;
+    padding: 10px 20px;
+    border: 10px solid blue;
     margin: 20px;
     width: 300px;
 }
