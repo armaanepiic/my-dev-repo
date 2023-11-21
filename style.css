@@ -15,3 +15,15 @@ button{
 button:hover{
     background-color: #103A49;
 }
+.avatar{
+    width: 180px;
+    height: 180px;
+    background-color: #999;
+    border-radius: 50%;
+}
+img{
+    
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
