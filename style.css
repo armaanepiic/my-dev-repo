@@ -16,6 +16,7 @@ a:active{
     background-color: black;
 }
 p{
+    box-sizing: border-box;
     background-color: gray;
     color: white;
     padding: 20px;
@@ -23,4 +24,5 @@ p{
     border-color: blue;
     border-style: solid;
     margin: 20px;
+    width: 300px;
 }
