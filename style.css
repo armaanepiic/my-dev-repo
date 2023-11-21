@@ -1,40 +1,25 @@
-*{
-    box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    font-family: sans-serif;
-}
-.profile{
-    margin: 0 auto;
-    text-align: center;
-    max-width: 350px;
-    background-color: #dfdfdf;
-    padding: 32px;
-    border-radius: 5px;
-}
-.profile:hover{
-    background-color: #cfcfcf;
-}
-.avatar{
-    width: 180px;
-    height: 180px;
-    background-color: #999;
-    border-radius: 50%;
-}
-h1,p{
-    margin: 10px 0px;
-    
-}
-button{
-    background-color: #227C9D;
-    color: white;
-    border: 0;
-    padding: 6px 12px;
-    border-radius: 5px;
-}
-button:hover{
-    background-color: #103A49;
+    font-size: 40px;
 }
 
+.box-one {
+    background-color: #EB5757;
+    padding: 10px;
+    border: 20px solid #9B54E0;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.box-two {
+    background-color: #2D9CDB;
+    border: 30px solid #27AE60;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
