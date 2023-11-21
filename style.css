@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: sans-serif;
+}
 .image-container {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     height: 500px;
     position: relative;
 }
 
 .image {
-
     width: 100%;
     height: 500px;
 }
@@ -20,10 +21,20 @@
 .overlay {
     position: absolute;
     top: 0;
-    right: 200px;
+    right: 0;
     bottom: 0;
     left: 0;
-    height: 500px;
+    height: 100%;
     width: 100%;
+    backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: white;
 }
