@@ -10,9 +10,12 @@ body{
     margin: 0 auto;
     text-align: center;
     max-width: 350px;
-    background-color: #cfcfcf;
+    background-color: #dfdfdf;
     padding: 32px;
     border-radius: 5px;
+}
+.profile:hover{
+    background-color: #cfcfcf;
 }
 .avatar{
     width: 180px;
