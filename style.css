@@ -24,12 +24,17 @@ a{
 .long-box{
     height: 1000px;
 }
-.red{
-    background-color: red;
+
+button{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 0px;
 }
-.green{
-    background-color: green;
-}
-.blue{
+button:hover{
     background-color: blue;
 }
