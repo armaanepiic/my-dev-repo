@@ -1,25 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 40px;
-}
-
-.box-one {
-    background-color: #EB5757;
-    padding: 10px;
-    border: 20px solid #9B54E0;
-    margin: 60px;
-    height: 100px;
-    width: 100px;
     box-sizing: border-box;
 }
-
-.box-two {
-    background-color: #2D9CDB;
-    border: 30px solid #27AE60;
-    padding: 10px;
-    margin: 60px;
-    height: 100px;
-    width: 100px;
-    padding: 10px;
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+a{
+    /* margin: 20px;
+    width: 300px;
+    height: 300px; */
+    /* border: 5px solid black; */
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background-color: red;
 }
