@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    color: #666;
+}
+.title{
+    color: #333;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+    background-color: black;
+}
+p{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    border: 5px;
+    border-color: blue;
+    border-style: solid;
+    margin: 20px;
+}
