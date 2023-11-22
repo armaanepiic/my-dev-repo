@@ -1,29 +1,104 @@
-/* *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
-.flexbox-container {
-    display: flex;
 }
 
-.flexbox-item {
-    width: 200px;
-    margin: 20px;
-    border: 3px solid #333;
-    background-color: #dfdfdf;
-    justify-content: space-around;
-    align-items: stretch;
+.main {
+    background-color: blueviolet;
+    height: 484px;
+    width: 1440px;
+    padding: 139px 380px 131px 380px;
 }
 
-.flexbox-item-1 {
-    min-height: 100px;
+.buttons {
+    background-color: white;
+    height: 214px;
+    width: 1000px;
 }
 
-.flexbox-item-2 {
-    min-height: 200px;
+.b-one {
+    background-color: aqua;
+    height: 50px;
+    /* padding: 13px 25px; */
+    margin-bottom: 32px;
 }
 
-.flexbox-item-3 {
-    min-height: 300px;
+.b-two {
+    background-color: yellow;
+    height: 50px;
+    /* padding: 13px 25px; */
+    margin-bottom: 32px;
+}
+
+.b-three {
+    background-color: green;
+    height: 50px;
+    /* padding: 13px 25px; */
+}
+
+.one {
+    margin-right: 32px;
+
+}
+
+.two {
+    margin-right: 32px;
+}
+
+.three {
+    margin-right: 32px;
+}
+
+.four {
+    margin-right: 32px;
+}
+
+.five {
+    margin-right: 0px;
+}
+
+.one {
+    padding: 7px 11px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.two {
+    padding: 9px 13px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.three {
+    padding: 9px 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.four {
+    padding: 9px 13px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.five {
+    padding: 13px 25px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
 }
