@@ -16,14 +16,17 @@
     height: 214px;
     background-color: #FFF;
 }
-button:hover{
-    cursor:pointer;
+
+button:hover {
+    cursor: pointer;
 }
-button:active{
+
+button:active {
     background-color: #a1a4a8;
 }
+
 .first {
-    margin-bottom:32px;
+    margin-bottom: 32px;
     height: 50px;
     background-color: #FFF;
     /*  */
@@ -34,6 +37,7 @@ button:active{
 }
 
 .one {
+    white-space: nowrap;
     color: var(--white, #FFF);
     padding: 7px 11px;
     font-family: Inter;
@@ -41,7 +45,7 @@ button:active{
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--indigo-600, #4F46E5);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -54,6 +58,7 @@ button:active{
 }
 
 .two {
+    white-space: nowrap;
     color: var(--white, #FFF);
     padding: 9px 13px;
     font-family: Inter;
@@ -61,7 +66,7 @@ button:active{
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--indigo-600, #4F46E5);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -74,6 +79,7 @@ button:active{
 }
 
 .three {
+    white-space: nowrap;
     color: var(--white, #FFF);
     padding: 9px 17px;
     font-family: Inter;
@@ -81,7 +87,7 @@ button:active{
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--indigo-600, #4F46E5);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -94,6 +100,7 @@ button:active{
 }
 
 .four {
+    white-space: nowrap;
     color: var(--white, #FFF);
     padding: 9px 17px;
     font-family: Inter;
@@ -104,13 +111,14 @@ button:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--indigo-600, #4F46E5);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
 .five {
+    white-space: nowrap;
     color: var(--white, #FFF);
     font-family: Inter;
     font-size: 16px;
@@ -121,7 +129,7 @@ button:active{
     padding: 13px 25px;
     justify-content: center;
     align-items: center;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--indigo-600, #4F46E5);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -142,6 +150,7 @@ button:active{
 }
 
 .one-a {
+    white-space: nowrap;
     color: var(--indigo-700, #4338CA);
     background: var(--indigo-100, #E0E7FF);
     padding: 7px 11px;
@@ -150,7 +159,7 @@ button:active{
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
     /*  */
@@ -162,15 +171,16 @@ button:active{
 }
 
 .two-a {
+    white-space: nowrap;
     color: var(--indigo-700, #4338CA);
-        background: var(--indigo-100, #E0E7FF);
+    background: var(--indigo-100, #E0E7FF);
     padding: 9px 13px;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
 
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -183,15 +193,16 @@ button:active{
 }
 
 .three-a {
+    white-space: nowrap;
     color: var(--indigo-700, #4338CA);
-        background: var(--indigo-100, #E0E7FF);
+    background: var(--indigo-100, #E0E7FF);
     padding: 9px 17px;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
 
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -204,8 +215,9 @@ button:active{
 }
 
 .four-a {
+    white-space: nowrap;
     color: var(--indigo-700, #4338CA);
-        background: var(--indigo-100, #E0E7FF);
+    background: var(--indigo-100, #E0E7FF);
     padding: 9px 17px;
     font-family: Inter;
     font-size: 16px;
@@ -215,14 +227,14 @@ button:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
-    
+
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
 .five-a {
-
+    white-space: nowrap;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -232,10 +244,10 @@ button:active{
     padding: 13px 25px;
     justify-content: center;
     align-items: center;
-    border: 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     color: var(--indigo-700, #4338CA);
-        background: var(--indigo-100, #E0E7FF);
+    background: var(--indigo-100, #E0E7FF);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -244,7 +256,7 @@ button:active{
 
 
 .third {
-    
+
     height: 50px;
     background-color: white;
     /*  */
@@ -255,6 +267,7 @@ button:active{
 }
 
 .one-b {
+    white-space: nowrap;
     color: var(--gray-700, #374151);
     padding: 7px 11px;
     font-family: Inter;
@@ -262,7 +275,7 @@ button:active{
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
-   
+
     border: 1px solid var(--gray-300, #D1D5DB);
     border-radius: 6px;
     background: var(--white, #FFF);
@@ -276,6 +289,7 @@ button:active{
 }
 
 .two-b {
+    white-space: nowrap;
     color: var(--gray-700, #374151);
     padding: 9px 13px;
     font-family: Inter;
@@ -296,6 +310,7 @@ button:active{
 }
 
 .three-b {
+    white-space: nowrap;
     color: var(--gray-700, #374151);
     padding: 9px 17px;
     font-family: Inter;
@@ -316,6 +331,7 @@ button:active{
 }
 
 .four-b {
+    white-space: nowrap;
     color: var(--gray-700, #374151);
     padding: 9px 17px;
     font-family: Inter;
@@ -333,6 +349,7 @@ button:active{
 }
 
 .five-b {
+    white-space: nowrap;
     color: var(--gray-700, #374151);
     font-family: Inter;
     font-size: 16px;
