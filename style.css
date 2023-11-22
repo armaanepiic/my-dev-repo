@@ -5,100 +5,346 @@
 }
 
 .main {
-    background-color: blueviolet;
-    height: 484px;
-    width: 1440px;
     padding: 139px 380px 131px 380px;
+    width: 1440px;
+    height: 484px;
+    background-color: #FFF;
 }
 
-.buttons {
-    background-color: white;
+.area {
+    width: 680px;
     height: 214px;
-    width: 1000px;
+    background-color: #FFF;
 }
-
-.b-one {
-    background-color: aqua;
-    height: 50px;
-    /* padding: 13px 25px; */
-    margin-bottom: 32px;
+button:hover{
+    cursor:pointer;
 }
-
-.b-two {
-    background-color: yellow;
-    height: 50px;
-    /* padding: 13px 25px; */
-    margin-bottom: 32px;
+button:active{
+    background-color: #a1a4a8;
 }
-
-.b-three {
-    background-color: green;
+.first {
+    margin-bottom:32px;
     height: 50px;
-    /* padding: 13px 25px; */
+    background-color: #FFF;
+    /*  */
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    /*  */
 }
 
 .one {
-    margin-right: 32px;
-
-}
-
-.two {
-    margin-right: 32px;
-}
-
-.three {
-    margin-right: 32px;
-}
-
-.four {
-    margin-right: 32px;
-}
-
-.five {
-    margin-right: 0px;
-}
-
-.one {
+    color: var(--white, #FFF);
     padding: 7px 11px;
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
+    border: 0px;
+    border-radius: 6px;
+    background: var(--indigo-600, #4F46E5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 7px 11px;
+    justify-content: center;
+    align-items: center;
+    /*  */
 }
 
 .two {
+    color: var(--white, #FFF);
     padding: 9px 13px;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
+    border: 0px;
+    border-radius: 6px;
+    background: var(--indigo-600, #4F46E5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 13px;
+    justify-content: center;
+    align-items: center;
+    /*  */
 }
 
 .three {
+    color: var(--white, #FFF);
     padding: 9px 17px;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    border: 0px;
+    border-radius: 6px;
+    background: var(--indigo-600, #4F46E5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 17px;
+    justify-content: center;
+    align-items: center;
+    /*  */
 }
 
 .four {
-    padding: 9px 13px;
+    color: var(--white, #FFF);
+    padding: 9px 17px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    background: var(--indigo-600, #4F46E5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
 .five {
-    padding: 13px 25px;
+    color: var(--white, #FFF);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    display: flex;
+    padding: 13px 25px;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    background: var(--indigo-600, #4F46E5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+.second {
+    margin-bottom: 32px;
+    height: 50px;
+    background-color: #FFF;
+    /*  */
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    /*  */
+}
+
+.one-a {
+    color: var(--indigo-700, #4338CA);
+    background: var(--indigo-100, #E0E7FF);
+    padding: 7px 11px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 7px 11px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.two-a {
+    color: var(--indigo-700, #4338CA);
+        background: var(--indigo-100, #E0E7FF);
+    padding: 9px 13px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: 0px;
+    border-radius: 6px;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 13px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.three-a {
+    color: var(--indigo-700, #4338CA);
+        background: var(--indigo-100, #E0E7FF);
+    padding: 9px 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 0px;
+    border-radius: 6px;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 17px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.four-a {
+    color: var(--indigo-700, #4338CA);
+        background: var(--indigo-100, #E0E7FF);
+    padding: 9px 17px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.five-a {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    padding: 13px 25px;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    color: var(--indigo-700, #4338CA);
+        background: var(--indigo-100, #E0E7FF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+.third {
+    
+    height: 50px;
+    background-color: white;
+    /*  */
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    /*  */
+}
+
+.one-b {
+    color: var(--gray-700, #374151);
+    padding: 7px 11px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+   
+    border: 1px solid var(--gray-300, #D1D5DB);
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 7px 11px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.two-b {
+    color: var(--gray-700, #374151);
+    padding: 9px 13px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 13px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.three-b {
+    color: var(--gray-700, #374151);
+    padding: 9px 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    /*  */
+    display: flex;
+    padding: 9px 17px;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.four-b {
+    color: var(--gray-700, #374151);
+    padding: 9px 17px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.five-b {
+    color: var(--gray-700, #374151);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    padding: 13px 25px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
