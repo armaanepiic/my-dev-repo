@@ -1,15 +1,16 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .parent {
-    height: 200px;
+    /* height: 200px; */
+    width: 800px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     border: 5px solid black;
     /* align-items: stretch; */
-    align-items: center;
-    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    flex-direction: tow;
     /* justify-content: flex-end; */
     /* justify-content: center; */
     /* justify-content: space-between; */
@@ -18,21 +19,25 @@
 }
 
 .box {
-
     height: 100px;
     width: 100px;
+    
 }
 
 .box-1 {
+    flex-grow: 1;
     /* height: 200px; */
     background-color: blueviolet;
+    /* align-self: flex-start; */
 }
 
 .box-2 {
+    flex-grow: 2;
     background-color: pink;
 }
 
 .box-3 {
+    /* align-self: center; */
     background-color: red;
 }
 
@@ -43,4 +48,5 @@
 .box-5 {
     /* height: 130px; */
     background-color: coral;
+    /* align-self: flex-end; */
 }
