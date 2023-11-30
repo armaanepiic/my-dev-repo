@@ -1,14 +1,15 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* margin:0;
     padding: 0; */
 }
 
 .parent {
     display: flex;
-    height: 800px;
+    width: 800px;
+    /* height: 800px; */
     /* flex-wrap: wrap; */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex-direction: row-reverse; */
     /* justify-content: flex-end; */
     /* justify-content: flex-start; */
@@ -31,15 +32,18 @@
 
 .box-1 {
     background-color: red;
+    flex-grow: 1;
 }
 
 .box-2 {
     background-color: rgb(30, 143, 30);
+    flex-grow: 1;
 }
 
 .box-3 {
     background-color: indigo;
-    align-self: center;
+    flex-grow: 1;
+    /* align-self: center; */
 }
 
 .box-4 {
