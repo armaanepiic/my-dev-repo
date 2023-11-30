@@ -6,53 +6,17 @@
 
 .parent {
     display: flex;
-    /* width: 800px; */
-    /* height: 800px; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
-    /* flex-direction: row-reverse; */
-    /* justify-content: flex-end; */
-    /* justify-content: flex-start; */
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
-    /* justify-content: sp ace-evenly; */
-    /* align-items: center; */
-    /* align-items: stretch; */
-    /* align-items: stretch; */
-    /* align-items: flex-end; */
-    /* align-items: flex-start; */
-    border: 5px solid black;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    flex-basis: 150px;
+.sidebar,
+.main-content {
+    padding: 20px;
+    
 }
-
-.box-1 {
-    background-color: red;
-    /* flex-grow: 1; */
-    /* flex-shrink: 5; */
+.sidebar{
+    flex: 0 0 160px;
+    background-color: palevioletred;
 }
-
-.box-2 {
-    background-color: rgb(30, 143, 30);
-    /* flex-grow: 1; */
-}
-
-.box-3 {
-    background-color: indigo;
-    /* flex-grow: 1; */
-    /* align-self: center; */
-}
-
-.box-4 {
+.main-content {
     background-color: orange;
-    /* align-self: flex-start; */
-}
-
-.box-5 {
-    background-color: cadetblue;
 }
