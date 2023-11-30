@@ -9,14 +9,34 @@
 }
 
 .sidebar,
+.sidebar-2,
 .main-content {
     padding: 20px;
-    
+
 }
-.sidebar{
+
+.sidebar,
+.sidebar-2 {
     flex: 0 0 160px;
     background-color: palevioletred;
 }
+
+.sidebar-2 {
+    background-color: brown;
+}
+
 .main-content {
     background-color: orange;
+}
+
+.sidebar {
+    order: 3;
+}
+
+.sidebar-2 {
+    order: 1;
+}
+
+.main-content {
+    order: 2;
 }
