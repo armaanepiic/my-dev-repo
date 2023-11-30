@@ -1,18 +1,39 @@
 * {
     box-sizing: border-box;
-    /* margin:0;
-    padding: 0; */
+    margin:0;
+    padding: 0;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .parent {
     display: flex;
 }
 
+header, ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style:none;
+    padding: 10px 20px;
+    background-color: cyan;
+    justify-content: space-between;
+}
+
+header button{
+    background-color: blue;
+    border: 0;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
+}
 .sidebar,
 .sidebar-2,
 .main-content {
     padding: 20px;
-
 }
 
 .sidebar,
@@ -28,15 +49,11 @@
 .main-content {
     background-color: orange;
 }
-
-.sidebar {
-    order: 3;
-}
-
-.sidebar-2 {
-    order: 1;
-}
-
-.main-content {
-    order: 2;
+section h2{
+    background-color: hotpink;
+    display: flex;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
