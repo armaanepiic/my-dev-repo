@@ -1,12 +1,12 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     /* margin:0;
     padding: 0; */
 }
 
 .parent {
     display: flex;
-    width: 800px;
+    /* width: 800px; */
     /* height: 800px; */
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
@@ -16,7 +16,7 @@
     /* justify-content: center; */
     /* justify-content: space-between; */
     /* justify-content: space-around; */
-    /* justify-content: space-evenly; */
+    /* justify-content: sp ace-evenly; */
     /* align-items: center; */
     /* align-items: stretch; */
     /* align-items: stretch; */
@@ -28,21 +28,23 @@
 .box {
     width: 100px;
     height: 100px;
+    flex-basis: 150px;
 }
 
 .box-1 {
     background-color: red;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
 }
 
 .box-2 {
     background-color: rgb(30, 143, 30);
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .box-3 {
     background-color: indigo;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* align-self: center; */
 }
 
