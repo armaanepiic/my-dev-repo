@@ -5,6 +5,109 @@
     font-family: inter;
 }
 
+/* .up {
+    height: 200px;
+} */
+
+.box {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 18px 0px;
+}
+
+.navigator {
+    padding: 0px 32px;
+    width: 1280px;
+    height: 44px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span-1 {
+    color: var(--gray-900, #101828);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px;
+}
+
+.box .navigator .item-1 {
+    display: flex;
+    gap: 0px;
+
+}
+
+.box .navigator .item-2 {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+.box .navigator .item-2 a{
+    text-decoration: none;
+}
+
+.box .navigator .item-2 span {
+    color: var(--gray-600, #475467);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.box .navigator .item-2 button {
+    color: var(--base-white, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-600, #444CE7);
+    background: var(--primary-600, #444CE7);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.box .navigator .item-2 button:hover{
+    cursor: pointer;
+}
+
+.box .navigator .item-1 .logo {
+    margin-right: 9px;
+    /* gap: 40px; */
+}
+
+.box .navigator .item-1 .span-2 {
+    color: var(--primary-700, #3538CD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-right: 14px;
+}
+
+.box .navigator .item-1 .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box .navigator .item-1 .items .navbar {
+    gap: 32px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.box .navigator .item-1 .items .navbar a {
+    color: var(--gray-600, #475467);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
 .about {
     padding: 96px 0px;
 }
@@ -155,6 +258,7 @@ hr {
     cursor: pointer;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
-.pricing-card .get button:hover{
+
+.pricing-card .get button:hover {
     color: pink;
 }
