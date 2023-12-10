@@ -47,7 +47,8 @@
     display: flex;
     align-items: center;
 }
-.box .navigator .item-2 a{
+
+.box .navigator .item-2 a {
     text-decoration: none;
 }
 
@@ -70,7 +71,8 @@
     background: var(--primary-600, #444CE7);
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
-.box .navigator .item-2 button:hover{
+
+.box .navigator .item-2 button:hover {
     cursor: pointer;
 }
 
@@ -261,4 +263,64 @@ hr {
 
 .pricing-card .get button:hover {
     color: pink;
+}
+
+.poster {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    height: 704px;
+    margin: 0 auto;
+    padding: 96px 0px;
+}
+
+.poster .container-1 {
+    margin: 0 auto;
+    width: 1280px;
+    height: 336px;
+    padding: 0px 32px;
+    background-color: #FFF;
+}
+
+.poster .container-2 {
+    margin: 0 auto;
+    width: 1280px;
+    height: 304px;
+    padding: 0px 32px;
+    background-color: red;
+}
+
+.poster .container-1 .content .content-1 {
+    text-align: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.poster .container-1 .content .content-1 strong {
+    color: var(--gray-900, #101828);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.poster .container-1 .content .content-1 p {
+    color: var(--gray-600, #475467);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.poster .container-1 .content .content-1 span {
+    color: var(--gray-600, #475467);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
 }
