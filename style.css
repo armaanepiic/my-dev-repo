@@ -112,6 +112,7 @@
 
 .about {
     padding: 96px 0px;
+    margin-top: 96px;;
 }
 
 .about .container {
@@ -273,6 +274,7 @@ hr {
     height: 704px;
     margin: 0 auto;
     padding: 96px 0px;
+    margin-bottom: 96px;
 }
 
 .poster .container-1 {
@@ -284,12 +286,22 @@ hr {
 }
 
 .poster .container-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    gap:0px;
     margin: 0 auto;
     width: 1280px;
     height: 304px;
     padding: 0px 32px;
-    background-color: red;
+    margin-bottom: 96px;
 }
+
+.poster .container-2  img{
+    float: left;
+}
+
 
 .poster .container-1 .content .content-1 {
     text-align: center;
@@ -323,4 +335,46 @@ hr {
     font-weight: 400;
     line-height: 30px;
     padding-top: 24px;
+}
+
+.poster .container-1 .content {
+    flex-direction: column;
+    display: flex;
+    gap: 48px;
+}
+
+.poster .container-1 .content .content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.poster .container-1 .content .content-2 button {
+    color: var(--Gray-700, #344054);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 16px 28px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--Base-White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.poster .container-1 .content .content-2 .blue-button {
+    color: var(--Base-White, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 8px;
+    border: 1px solid var(--Primary-600, #444CE7);
+    background: var(--Primary-600, #444CE7);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
