@@ -434,6 +434,11 @@
     padding: 50px;
 }
 
+.company{
+    width: 1050px;
+    margin: 0 auto;
+}
+
 .company ul {
     list-style: none;
     display: flex;
