@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Position</title>
-</head>
-<body>
   
+</head>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+  }
+  h1{
+    position: relative;
+  }
+ 
+  h1::after{
+    content: '';
+    width: 10px;
+    height: 13px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 152px;
+    top: 15px;
+    z-index:-1;
+  }
+  
+</style>
+
+<body>
+
+  <div>
+    <h1>Hello World</h1>
+  </div>
+
 </body>
+
 </html>
